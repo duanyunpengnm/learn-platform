@@ -7,7 +7,7 @@ PASSWORD = '7ujm8ik,'
 DB_URI = 'mysql+pymysql://{}:{}@{}:{}/{}?charset=utf8'.format(USERNAME,PASSWORD,HOSTNAME,PORT,DATABASE)
 SQLALCHEMY_DATABASE_URI = DB_URI  #使用链接地址，可用于创建数据库引擎
 SQLALCHEMY_TRACK_MODIFICATIONS = True    #
-SECRET_KEY = 'thisissecretkey'
+SECRET_KEY = ''
 
 ###email
 MAIL_SERVER = 'smtp.qq.com'
